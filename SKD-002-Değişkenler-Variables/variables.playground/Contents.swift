@@ -40,5 +40,3 @@ print(age)
 
 var myBoolean = true
 print(myBoolean)
-
-
