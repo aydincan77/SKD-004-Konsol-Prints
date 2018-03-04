@@ -15,6 +15,7 @@ print : Konsola yazdır (print ifadesi küçük harf ile başlamalıdır),
 
  */
 
+
 let kullanıcıAdı = "Aydın"
 let kullanıcıSoyadı = "Can"
 
@@ -32,6 +33,14 @@ print(kullanıcıAdı, kullanıcıSoyadı)
 5. print(kullanıcıAdı + kullanıcıSoyadı) fonksiyonu ile konsola kullanıcıAdı ve kullanıcıSoyadı değerini artdarda yazmasını söyledim,
 6. print(kullanıcıAdı, kullanıcıSoyadı) fonksiyonu ile konsola kullanıcıAdı ve kullanıcıSoyadı değerini artdarda yazmasını söyledim, virgül sebebiyle iki değer arasında bir boşluk bulunacaktır.
 */
+
+// Eğer isterseniz print fonksiyonunu aynı satırdada yazabilirsiniz, önrneği;
+
+var onBeş = 15
+var yirmi = 20
+
+var toplamSonuç = onBeş + yirmi; print("toplamSonuç değeri : ", toplamSonuç)
+//Dikkat ettiyseniz toplamSonuç değişkeni ile değerlerimi topladım ve ardından noktalı virgül (;) işaretini kullanarak print fonksyonuma aynı satırda yazdım
 
 // Değerlerimi topluyorum
 
@@ -51,4 +60,9 @@ print("ilkDeğer sonucum :",  ilkDeğer1)
 let kullanıcıAdı1 = "John"
 
 print("Merhaba \(kullanıcıAdı1)")
+
+
+ 
+ 
+ 
 
