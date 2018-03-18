@@ -92,3 +92,84 @@ if !girişeİzinVerildi2 {
     print("Hoşgeldin")
 }
 
+// KOMBİNE MANTIKSAL OPERATÖRLER
+let kapıKoduBaşarılı1 = true
+let retinaTaramasıBaşarılı1 = true
+let anahtarKullanıldı = false
+let acilDurumButonu = false
+if kapıKoduBaşarılı1 && retinaTaramasıBaşarılı1 || anahtarKullanıldı || acilDurumButonu {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
+
+let kapıKoduBaşarılı2 = true
+let retinaTaramasıBaşarılı2 = false
+let anahtarKullanıldı1 = false
+let acilDurumButonu1 = false
+if kapıKoduBaşarılı2 && retinaTaramasıBaşarılı2 || anahtarKullanıldı1 || acilDurumButonu1 {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
+
+let kapıKoduBaşarılı3 = false
+let retinaTaramasıBaşarılı3 = true
+let anahtarKullanıldı2 = false
+let acilDurumButonu2 = false
+if kapıKoduBaşarılı3 && retinaTaramasıBaşarılı3 || anahtarKullanıldı2 || acilDurumButonu2 {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
+
+let kapıKoduBaşarılı4 = true
+let retinaTaramasıBaşarılı4 = true
+let anahtarKullanıldı3 = true
+let acilDurumButonu3 = false
+if kapıKoduBaşarılı4 && retinaTaramasıBaşarılı4 || anahtarKullanıldı3 || acilDurumButonu3 {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
+
+let kapıKoduBaşarılı5 = true
+let retinaTaramasıBaşarılı5 = true
+let anahtarKullanıldı4 = false
+let acilDurumButonu4 = true
+if kapıKoduBaşarılı5 && retinaTaramasıBaşarılı5 || anahtarKullanıldı4 || acilDurumButonu4 {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
+
+let kapıKoduBaşarılı6 = false
+let retinaTaramasıBaşarılı6 = false
+let anahtarKullanıldı5 = false
+let acilDurumButonu5 = true
+if kapıKoduBaşarılı6 && retinaTaramasıBaşarılı6 || anahtarKullanıldı5 || acilDurumButonu5 {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
+
+let kapıKoduBaşarılı7 = false
+let retinaTaramasıBaşarılı7 = false
+let anahtarKullanıldı6 = false
+let acilDurumButonu6 = true
+if kapıKoduBaşarılı7 && retinaTaramasıBaşarılı7 || anahtarKullanıldı6 || acilDurumButonu6 {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
+
+// AÇIK PARANTEZ LOJİK OPERATÖRLERİ
+let kapıKoduBaşarılı8 = true
+let retinaTaramasıBaşarılı8 = false
+let anahtarKullanıldı7 = false
+let acilDurumButonu7 = true
+if (kapıKoduBaşarılı8 && retinaTaramasıBaşarılı8) || anahtarKullanıldı7 || acilDurumButonu7 {
+    print("Hoşgeldin!")
+} else {
+    print("GİRİŞ REDDEDİLDİ")
+}
