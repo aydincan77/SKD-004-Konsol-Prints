@@ -36,3 +36,10 @@ let sabitDeğer = 10
 // veya
 
 let kullanıcıAdı = "" /* deneme */
+
+// kod satırlarını işlem dışı bırakma
+/*
+let kullanıcıAdı = ""
+*/
+
+// let kullanıcıAdı = ""
