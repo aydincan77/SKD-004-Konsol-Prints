@@ -105,3 +105,18 @@ print(kullanıcı3.Adı, kullanıcı3.Soyadı, kullanıcı3.Yaşı, kullanıcı3
 kullanıcı3.Mesleği = "Doktor"
 print(kullanıcı3.Mesleği)
 
+// ÖRNEK 4
+let bar: (Int, (Bool, String)) = (1, (false, "Hello"))
+
+print(bar.0)
+print(bar.1)
+print(bar.1.0)
+print(bar.1.1)
+
+// ÖRNEK 5
+let meyve = (Adı : "Elma", Özelliği : (Menşei : "Amasya", Rengi : "Kırmızı"))
+
+print(meyve.Adı)
+print(meyve.Özelliği)
+print(meyve.Özelliği.Menşei)
+print(meyve.Özelliği.Rengi)
