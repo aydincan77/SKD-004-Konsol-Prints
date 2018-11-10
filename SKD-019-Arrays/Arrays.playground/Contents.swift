@@ -24,6 +24,9 @@ for şehir in şehirler {
 // Çıktı : "Ben Kocaeli şehrinde yaşamıyorum."
 // Çıktı : "Ben Edirne şehrinde yaşamıyorum."
 
+// Rastgele bir değere ulaşma
+şehirler.randomElement()
+
 // BOŞ MU VEYA ELEMENT SAY *************************************
 if tekSayılar.isEmpty {
     print("Ben hiç tek sayı bilmiyorum")
@@ -45,7 +48,7 @@ print(boşDouble.first, boşDouble.last, separator: ", ")
 print(tekSayılar[0], tekSayılar[3], separator: ", ")
 // Çıktı : "1, 7"
 
-print(boşDouble[0])
+//print(boşDouble[0])
 // Error: Aralık dışı Index değeri atandı.
 
 // DİZİYE ELEMENT EKLEME VE ÇIKARMA ***************************
