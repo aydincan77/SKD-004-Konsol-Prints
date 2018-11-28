@@ -4,9 +4,7 @@ import UIKit
 
 // Tuples - Çok öğeli veri tipleri
 
-
 // -------- TEKİL DEĞİŞKEN VE SABİT ATAMA ŞABLONLARI ------------//
-
 /* Bireysel olarak sabit tanımlama şablonu
  
  let <#name#> = <#value#>
@@ -15,51 +13,18 @@ import UIKit
  
  */
 
-/* Bireysel olarak değişken tanımlama şablonu
- 
-var <#name#> = <#value#>
-
-var <#name#> : value Type = <#value#>
-
-*/
-
 // -------- TUPLES - ÇOKLU DEĞİŞKEN VE SABİT ATAMA ŞABLONLARI ------------//
-
 /* Tuples olarak sabit tanımlama şablonu
 
 let <#name#> = (<#value#>, <#value#>, ...)
 
-veya
- 
 let <#name#> : (value Type, value Type, ...)= (<#value#>, <#value#>, ...)
- 
-veya
- 
-let <#name#> = (indexAdı: <#value#>, indexAdı: <#value#>, ...)
 
-veya
+let <#name#> = (indexAdı: <#value#>, indexAdı: <#value#>, ...)
 
 let <#name#> : (value Type, value Type, ...)= (indexAdı: <#value#>, indexAdı: <#value#>, ...)
 
  */
-
-/* Tuples olarak değişken tanımlama şablonu
-
-var <#name#> = (<#value#>, <#value#>, ...)
-
-veya
-
-var <#name#> : (value Type, value Type, ...)= (<#value#>, <#value#>, ...)
-
-veya
- 
-var <#name#> = (indexAdı: <#value#>, indexAdı: <#value#>, ...)
- 
-veya
- 
-var <#name#> : (value Type, value Type, ...)= (indexAdı: <#value#>, indexAdı: <#value#>, ...)
-
-*/
 
 // -------- ÖRNEKLER ------------//
 
@@ -76,6 +41,7 @@ var kullanıcıMesleği = "iOS Geliştirici"
 var kullanıcı1 = ("Aydın", "CAN", 40, "iOS Geliştirici") // Yazabilirsin
 
 // kullanıcı1 değerlere ulaşmak için
+print(kullanıcı1)
 print(kullanıcı1.0, kullanıcı1.1, kullanıcı1.2, kullanıcı1.3)
 
 // kullanıcı1 değerlerini değiştirme
@@ -84,7 +50,6 @@ print(kullanıcı1.2)
 
 
 // ÖRNEK 2
-
 var kullanıcı2 : (String, String, Int, String) = ("Aydın", "CAN", 40, "iOS Geliştirici") // Yazabilirsin
 
 // kullanıcı2 değerlere ulaşmak için
@@ -120,3 +85,8 @@ print(meyve.Adı)
 print(meyve.Özelliği)
 print(meyve.Özelliği.Menşei)
 print(meyve.Özelliği.Rengi)
+
+// ÖRNEK 6
+var (adı, soyadı, yaşı) = ("Aydın", "CAN", 41)
+
+print(adı)
